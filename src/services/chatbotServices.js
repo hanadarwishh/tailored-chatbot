@@ -57,7 +57,7 @@ async function courseChatbot(query, studentId, course_code, course_name) {
         },
       }
     );
-    console.log(response.data);
+    return response.data;
   } catch (error) {
     console.error(
       "Full error details:",
